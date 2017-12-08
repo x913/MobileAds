@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\AdsManager.cs" />
+    <Compile Include="Cache.cs" />
     <Compile Include="Connectivity.cs" />
     <Compile Include="AdsActivity.cs" />
     <Compile Include="CustomWebViewClient.cs" />
@@ -109,6 +110,9 @@
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\hd_wallpaper.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Assets\wp_content.json" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
 </Project>

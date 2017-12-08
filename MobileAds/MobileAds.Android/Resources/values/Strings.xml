@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">TieApp</string>
-
+  
+  <string name="URL_WP_API">http://anikatoo.ru/wp-json</string>
+  <string name="URL_SIMPLE_API">http://raboto.bget.ru/ArticlesManager.php</string>
+  <string name="URL_ADS_MANAGER">http://raboto.bget.ru/AdsManager.php</string>
+  
   <string name="WP_CATEGORIES">How to tie a tie, Special</string>
   <string name="MSG_TRY_AGAIN">ПОПРОБОВАТЬ ЕЩЕ</string>
-  <string name="MSG_EXIT">Выход</string>
+  <string name="MSG_EXIT">ВЫХОД</string>
   <string name="MSG_ERROR">Ошибка</string>
   <string name="MSG_NO_NETWORK">Отсутствует или нестабильно сетевое соединение"</string>
 
